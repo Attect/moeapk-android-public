@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion versionName="4.3.8" changeDate="2016年5月11日">
+        <changelogtext>界面底层框架更换(新旧技术更换)</changelogtext>
+        <changelogtext>重新梳理程序逻辑,改掉不合理的逻辑设计</changelogtext>
+        <changelogtext>彻底淘汰上次API升级后遗留的网络访问逻辑</changelogtext>
+        <changelogtext>淘汰Toolbar,换用Appbar</changelogtext>
+        <changelogtext>移除成就</changelogtext>
+        <changelogtext>改变了一些界面的下拉刷新效果</changelogtext>
+        <changelogtext>安卓5.0及更高版本上启用多文档切换模式</changelogtext>
+        <changelogtext>改进随机ACG图片的网络请求方式</changelogtext>
+        <changelogtext>取消单独的"游戏/应用"界面,与主界面合并</changelogtext>
+        <changelogtext>自定义颜色的效果更好了</changelogtext>
+        <changelogtext>自定义颜色同步到安卓5.0及更高版本的导航界面</changelogtext>
+        <changelogtext>安卓5.0或更高版本可以调整状态栏和导航栏的透明度了</changelogtext>
+        <changelogtext>有物理菜单按键可以在主界面中弹出侧边栏</changelogtext>
+        <changelogtext>添加到桌面的活动按钮图标启动更自然</changelogtext>
+        <changelogtext>修复侧边栏错误无法识别已登录的状态</changelogtext>
+        <changelogtext>取消了滑动返回(效果糟糕)</changelogtext>
+        <changelogtext>修复了文章列表不能下拉刷新的问题</changelogtext>
+        <changelogtext>查看多图文章时变得稍微流畅一些了</changelogtext>
+        <changelogtext>修复文章查看统计的问题</changelogtext>
+        <changelogtext>应该修复了调查小队列表偶尔崩溃的问题</changelogtext>
+        <changelogtext>应用列表改用更实用的跳页操作方式</changelogtext>
+        <changelogtext>修复应用列表里网络不佳的时候点击跳页可能会崩溃</changelogtext>
+        <changelogtext>修复如果系统内没有任何浏览器的情况下点击升级会清空缓存的问题</changelogtext>
+        <changelogtext>启动界面改进为按需加载不是每次加载了</changelogtext>
+        <changelogtext>修复观看视频时切出应用再切回后不保持屏幕常亮的问题</changelogtext>
+        <changelogtext>修复顶图和图标重复加载及缓存的问题</changelogtext>
+        <changelogtext>修复查看无更新记录的应用信息时崩溃的问题</changelogtext>
+        <changelogtext>修复登录后主界面刷新可能导致崩溃的问题</changelogtext>
+        <changelogtext>第一次或更新后启动的部分内容变更</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="4.0.9" changeDate="2016年4月17日">
+        <changelogtext>(测试内容)增加VR模式:介绍视频</changelogtext>
+        <changelogtext>修复直接登录后不保留凭据的问题</changelogtext>
+        <changelogtext>修复Chrome调用崩溃问题</changelogtext>
+        <changelogtext>修复无法再次搜索的问题</changelogtext>
+        <changelogtext>修复疯狂刷新主界面时崩溃的问题</changelogtext>
+        <changelogtext>增加ChromeTabs启用选项</changelogtext>
+        <changelogtext>修正部分自定义DPI的设备上部分界面上方出现白条问题</changelogtext>
+        <changelogtext>增加对PerfectColorBar(KK)不兼容检测</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="4.0.1" changeDate="2016年4月15日">
+        <changelogtext>修复市场中无法翻页的问题</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="4.0.0" changeDate="2016年4月13日">
+        <changelogtext>API版本提升到5</changelogtext>
+        <changelogtext>市场中搜索时屏幕键盘改为立即隐藏</changelogtext>
+        <changelogtext>活动按钮的长按菜单中第一项"添加到主界面"能根据当前状态给出不同提示</changelogtext>
+        <changelogtext>修复网速过快时不显示功能按钮的问题</changelogtext>
+        <changelogtext>改正主界面刷新轮播时内存释放不及时的问题</changelogtext>
+        <changelogtext>改正预览版本图标不会及时更新的问题</changelogtext>
+        <changelogtext>改进:刷新主界面时能刷新节日信息了</changelogtext>
+        <changelogtext>修复登录后主界面不立即显示用户名的问题</changelogtext>
+        <changelogtext>更新第三方中的幻天领域的API请求地址</changelogtext>
+        <changelogtext>修复大图图片自动旋转判断逻辑</changelogtext>
+        <changelogtext>应用截图会根据屏幕比例自动旋转为最佳查看方向了</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="3.6.6" changeDate="2016年3月21日">
+        <changelogtext>修复服务器光纤断裂时启动崩溃的问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.6.5" changeDate="2016年2月13日">
+        <changelogtext>增加节日信息</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.6.4" changeDate="2016年2月3日">
+        <changelogtext>应用信息可通过scheme调起</changelogtext>
+        <changelogtext>解决主界面轮播图片和下拉刷新冲突</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.6.2" changeDate="2016年1月30日">
+        <changelogtext>修正注册登录界面布局错误问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.6.1" changeDate="2016年1月30日">
+        <changelogtext>淘汰ActionBar,换用ToolBar</changelogtext>
+        <changelogtext>文章功能重新上线</changelogtext>
+        <changelogtext>主界面可以下拉刷新了</changelogtext>
+        <changelogtext>设置界面应用全局特性</changelogtext>
+        <changelogtext>修正版本名</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.5.6" changeDate="2016年1月25日">
+        <changelogtext>修正主界面原图下载文件名没有扩展名的问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.4.5" changeDate="2016年1月23日">
+        <changelogtext>帐号系统</changelogtext>
+        <changelogtext>看起来启动得更快了</changelogtext>
+        <changelogtext>部分界面增加侧边栏操作,同时移除功能重复的菜单</changelogtext>
+        <changelogtext>部分界面添加侧滑返回效果</changelogtext>
+        <changelogtext>主界面长按功能按钮能够直接添加到桌面了</changelogtext>
+        <changelogtext>下载信息增加 文件大小</changelogtext>
+        <changelogtext>修复没网时启动直接崩溃的BUG</changelogtext>
+        <changelogtext>修复安卓6.0及更高系统下无法调用下载管理器下载的问题</changelogtext>
+        <changelogtext>修复安卓6.0及更高下二维码扫描黑屏问题</changelogtext>
+        <changelogtext>部分界面细微调整</changelogtext>
+        <changelogtext>框架问题检测解决按钮生效</changelogtext>
+        <changelogtext>增加主界面随机图片</changelogtext>
+        <changelogtext>播放视频时保持屏幕常亮</changelogtext>
+        <changelogtext>移除酷狗滑动返回效果</changelogtext>
+        <changelogtext>移除部分没用的设置选项</changelogtext>
+        <changelogtext>"活动按钮"改名为"功能按钮"</changelogtext>
+        <changelogtext>删除旧市场相关的功能以及资源</changelogtext>
+        <changelogtext>移除"关于"中的"传给朋友"</changelogtext>
+        <changelogtext>删除一个未完成的彩蛋</changelogtext>
+        <changelogtext>改善"芙兰"的显示效果</changelogtext>
+        <changelogtext>系统最低要求从安卓2.3提升到2.3.3</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="3.2.6" changeDate="2015年12月24日">
+        <changelogtext>与服务器链接协议更换为HTTPS</changelogtext>
+        <changelogtext>增加Google翻译</changelogtext>
+        <changelogtext>增加活动按钮添加到桌面功能</changelogtext>
+        <changelogtext>增加ACGN幻天领域功能模块</changelogtext>
+        <changelogtext>应用宣传视频换成乐视云源,并且增加半自动播放效果,设置中增加相应选项</changelogtext>
+        <changelogtext>修改ACG调查小队内容界面增加分享功能以及界面改良</changelogtext>
+        <changelogtext>修改应用信息界面部分效果</changelogtext>
+        <changelogtext>增加为什么一些东西不能用的检测</changelogtext>
+        <changelogtext>修复了一些搜索的BUG以及改善体验</changelogtext>
+        <changelogtext>主界面Google可用指示</changelogtext>
+        <changelogtext>能检测应用是否已安装,给出下载/更新/打开选项</changelogtext>
+        <changelogtext>修复没有外部储存时启动崩溃的问题</changelogtext>
+        <changelogtext>增加转到优酷/YouTube观看应用视频按钮</changelogtext>
+        <changelogtext>播放应用视频时加了个台标</changelogtext>
+        <changelogtext>增加应用分享按钮</changelogtext>
+        <changelogtext>更新新版官网二维码识别特征串</changelogtext>
+        <changelogtext>修复启动界面逻辑重复多次执行的BUG</changelogtext>
+        <changelogtext>解决部分用户无法下载到最新测试版的问题</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="3.0.9" changeDate="2015年11月1日">
+        <changelogtext>！！进入正式版！！</changelogtext>
+        <changelogtext>修复前一版游戏/应用崩溃问题</changelogtext>
+        <changelogtext>改进ACG调查小队列表，支持平板多列显示，增加了几个板块的内容</changelogtext>
+        <changelogtext>修正ACG调查小队查看内容时图片超出屏幕大小的问题</changelogtext>
+        <changelogtext>规范储存器使用,取消自定义工作目录选项</changelogtext>
+        <changelogtext>Android 5.x以上程序切换卡标题栏设定为蓝色</changelogtext>
+        <changelogtext>新的应用市场功能,同时增加了搜索</changelogtext>
+        <changelogtext>菜单中增加“下载管理”</changelogtext>
+        <changelogtext>加快启动速度,且不会经过白屏或黑屏了</changelogtext>
+        <changelogtext>修复某些系统版本在切换Activity时ActionBar和状态栏偶尔会变黑问题</changelogtext>
+        <changelogtext>去掉了ActionBar下的阴影</changelogtext>
+        <changelogtext>修改了部分显示效果和界面效果</changelogtext>
+        <changelogtext>主界面轮播停留时间增长一些</changelogtext>
+        <changelogtext>二维码扫描已指向新市场</changelogtext>
+        <changelogtext>对即将失效的设置选项增加了失效说明</changelogtext>
+        <changelogtext>修改了某三个成就的获取途径</changelogtext>
+        <changelogtext>修改了应用图标使其接近规范</changelogtext>
+        <changelogtext>加快一些点击的反应速度</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="beta 2.9.2" changeDate="2015年9月23日">
+        <changelogtext>ACG调查小队前端设计师强迫症发作</changelogtext>
+        <changelogtext>修复实验室因为AcFun客户端更新到4.0导致的崩溃</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.9.1" changeDate="2015年9月15日">
+        <changelogtext>修正部分对话框变形</changelogtext>
+        <changelogtext>更正上一版本里记录的错误的更新时间</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.9.0" changeDate="2015年9月14日">
+        <changelogtext>Material Design</changelogtext>
+        <changelogtext>完善300英雄资料站客户端内容,增加资讯以及免费英雄</changelogtext>
+        <changelogtext>移除下载列表界面菜单中的"显示广告"这个无用项</changelogtext>
+        <changelogtext>解决当设备中没有下载管理器以及任何浏览器时选择更新或下载可能导致的崩溃问题</changelogtext>
+        <changelogtext>修正了一些列表项的布局实现方法不规范导致的选中高亮效果不匀称的问题</changelogtext>
+        <changelogtext>为在安卓4.2.2以下版本下运行时增加全平台Webp格式图片编解码支持</changelogtext>
+        <changelogtext>增加x86/arm系列ffmpeg解码库(体积爆增)</changelogtext>
+        <changelogtext>修复实验室在支持沉浸式的系统中标题栏为空白的BUG</changelogtext>
+        <changelogtext>修改ACG调查小队列表样式使其和官方设计保持一致</changelogtext>
+        <changelogtext>更换设置中的颜色选择方式</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.8.0" changeDate="2015年8月7日">
+        <changelogtext>增加300英雄资料站子客户端</changelogtext>
+        <changelogtext>修复从轮播出点击查看文章时没有标题的BUG</changelogtext>
+        <changelogtext>解决动作列表排序后初始化主界面显示的按钮BUG</changelogtext>
+        <changelogtext>ACG调查小队列表图片改为大图</changelogtext>
+        <changelogtext>修复并调整查看应用截图时状态栏和标题栏透明效果</changelogtext>
+        <changelogtext>缩小一些列表页的列表项的上下间距</changelogtext>
+        <changelogtext>增加Gif图片支持</changelogtext>
+        <changelogtext>强制竖屏显示</changelogtext>
+        <changelogtext>解决错误提示不支持一些动作的问题</changelogtext>
+        <changelogtext>其它细节改进</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.7.3" changeDate="2015年8月3日">
+        <changelogtext>恢复主界面</changelogtext>
+        <changelogtext>增加活动按钮</changelogtext>
+        <changelogtext>更换图标</changelogtext>
+        <changelogtext>更新Logo(喵星人形象微调)</changelogtext>
+        <changelogtext>增加轮播</changelogtext>
+        <changelogtext>增加趋势</changelogtext>
+        <changelogtext>增加文章</changelogtext>
+        <changelogtext>增加ACG调查小队子客户端</changelogtext>
+        <changelogtext>增加测试版本获取</changelogtext>
+        <changelogtext>改进应用列表交互,去除新手教程</changelogtext>
+        <changelogtext>增加自定义主题颜色设定</changelogtext>
+        <changelogtext>变色状态栏和标题栏,以及同色模式</changelogtext>
+        <changelogtext>统一颜色显示</changelogtext>
+        <changelogtext>修复应用介绍中不能分享以及复制介绍的BUG</changelogtext>
+        <changelogtext>增加对于在Play挑选中如果MoeApk已收录应用是否自动跳转到MoeApk市场的选项</changelogtext>
+        <changelogtext>移除安装包内的"关于"里的二维码下载图片</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="beta 2.5.7" changeDate="2015年6月23日">
+        <changelogtext>!!!此版重构了应用!!!</changelogtext>
+        <changelogtext>API版本更新至4</changelogtext>
+        <changelogtext>加快了版本检查的速度,解决更新双重弹窗</changelogtext>
+        <changelogtext>改进列表请求方式</changelogtext>
+        <changelogtext>修复不能正确判断储存卡状态的BUG</changelogtext>
+        <changelogtext>改善成就获取体验</changelogtext>
+        <changelogtext>查看收藏按钮更换为统一的星星图片</changelogtext>
+        <changelogtext>新增网络缓存机制,没网也可以看曾经浏览过的东西</changelogtext>
+        <changelogtext>在网络连接失败时,"退出"按钮改为"返回"</changelogtext>
+        <changelogtext>去除强制有网设置选项(没有用了)</changelogtext>
+        <changelogtext>新增点击一个版本下载后是否自动返回信息界面的选项</changelogtext>
+        <changelogtext>修复减肥后"反馈"崩溃的问题</changelogtext>
+        <changelogtext>修复一些并无影响的小问题</changelogtext>
+        <changelogtext>增加自检，防止被恶意修改</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.4.5" changeDate="2015年5月28日">
+        <changelogtext>修复减肥后一些设备上提示框崩溃的问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.4.4" changeDate="2015年5月27日">
+        <changelogtext>减肥</changelogtext>
+        <changelogtext>解决可能在检查更新时、查看收藏、评论时崩溃</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.4.2" changeDate="2015年4月25日">
+        <changelogtext>移除广告,取消了因广告申请的权限,设置中撤销广告设置</changelogtext>
+        <changelogtext>增加"收藏"功能</changelogtext>
+        <changelogtext>增加"实验室"</changelogtext>
+        <changelogtext>设置中增加一些说明</changelogtext>
+        <changelogtext>优化内存使用,解决了越用越卡最终崩溃,解决查看截图时因内存泄漏而崩溃的问题</changelogtext>
+        <changelogtext>设置中增加"强制有网"选项</changelogtext>
+        <changelogtext>更换图片加载引擎</changelogtext>
+        <changelogtext>缓存去除扩展名并改为无意义文件名防止被别的程序扫描到</changelogtext>
+        <changelogtext>查看截图时在标题显示数量</changelogtext>
+        <changelogtext>加载截图时增加下载进度显示</changelogtext>
+        <changelogtext>部分系统上启动界面启用沉浸试</changelogtext>
+        <changelogtext>微调界面颜色,修改部分按钮颜色以及大小</changelogtext>
+        <changelogtext>调整列表翻页脚视觉样式</changelogtext>
+        <changelogtext>修改默认动画</changelogtext>
+        <changelogtext>增加酷狗滑动返回效果(默认关闭)</changelogtext>
+        <changelogtext>也许解决了一些潜在的崩溃问题</changelogtext>
+        <changelogtext>增加自身logcat信息查看辅助开发者找到罕见bug(实验室固定功能)</changelogtext>
+        <changelogtext>小改动一下新手提示</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.2.4" changeDate="2015年3月22日">
+        <changelogtext>修复缓存图片出现在相册的BUG</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.2.3" changeDate="2015年3月21日">
+        <changelogtext>再修复下拉刷新导致的崩溃</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.2.2" changeDate="2015年3月20日">
+        <changelogtext>增加评论查看,不用再跳到网页了</changelogtext>
+        <changelogtext>删除应用列表界面菜单中的"退出"</changelogtext>
+        <changelogtext>应用列表界面如果侧栏打开,那么按一次返回键会自动收回</changelogtext>
+        <changelogtext>"关于"界面中恢复"捐助"条目</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.1.8" changeDate="2015年3月19日">
+        <changelogtext>完善截图查看,修复Play萌应用挑选里点击截图崩溃问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.1.7" changeDate="2015年3月19日">
+        <changelogtext>节操还是保留吧,移除"捐助"以及分类中的"广告支持"</changelogtext>
+        <changelogtext>改进截图查看方式,支持左右滑动切换图片</changelogtext>
+        <changelogtext>设置中增加显示广告开关</changelogtext>
+        <changelogtext>修正"设置"界面中"惯用左手*"条目没有阴影</changelogtext>
+        <changelogtext>修正"设置"界面中默认聚焦在修改工作目录输入框内</changelogtext>
+        <changelogtext>修正"设置"界面内容超出屏幕后不能上下滑动的问题</changelogtext>
+        <changelogtext>删除查看截图时的广告</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.1.2" changeDate="2015年3月18日">
+        <changelogtext>修正部分成就问题</changelogtext>
+        <changelogtext>修改分类选择方式提示为三次</changelogtext>
+        <changelogtext>"关于"界面添加"微博"以及"捐助"以及做细微的操作调整</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.1.1" changeDate="2015年3月17日">
+        <changelogtext>修复不清理外部储存缓存的问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 2.1.0" changeDate="2015年3月16日">
+        <changelogtext>重新设定游戏规则,增加LICENSE声明</changelogtext>
+        <changelogtext>重新设计关于界面</changelogtext>
+        <changelogtext>缩短启动画面时间</changelogtext>
+        <changelogtext>更换Logo以及启动图案</changelogtext>
+        <changelogtext>应用信息界面菜单提供"复制介绍"</changelogtext>
+        <changelogtext>尝试修复下拉刷新可能导致程序崩溃</changelogtext>
+        <changelogtext>增加下拉刷新时是否清空图标缓存选项</changelogtext>
+        <changelogtext>解决应用信息未载入完毕时点击信息/介绍/更新三个按钮崩溃的问题</changelogtext>
+        <changelogtext>增加Play应用挑选功能,由Play商店地址进入</changelogtext>
+        <changelogtext>修正下载开始时的下载路径提示</changelogtext>
+        <changelogtext>更正错误的自身二维码</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.9.9" changeDate="2015年3月1日">
+        <changelogtext>去掉一个错误的斜标实验</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.9.8" changeDate="2015年3月1日">
+        <changelogtext>增加实验性"搜索"功能</changelogtext>
+        <changelogtext>增加"扫一扫"功能,扫描本站网页二维码可直接转到对应应用信息</changelogtext>
+        <changelogtext>增加"设置"</changelogtext>
+        <changelogtext>"设置"中增加是否使用系统下载管理器选项</changelogtext>
+        <changelogtext>"设置"中增加惯用左手选项</changelogtext>
+        <changelogtext>"设置"中增加实验性修改工作目录选项</changelogtext>
+        <changelogtext>修改应用信息界面</changelogtext>
+        <changelogtext>应用介绍中的链接应该可以点击了</changelogtext>
+        <changelogtext>在浏览器中打开萌萌安卓网站里的应用时,可选择跳转到本应用查看</changelogtext>
+        <changelogtext>移除跳转到网页版菜单</changelogtext>
+        <changelogtext>取消翻页按钮空白处为上一页的设定</changelogtext>
+        <changelogtext>修复列表不满10个时点击翻页按钮空白处崩溃的问题</changelogtext>
+        <changelogtext>调整芙兰动画,看起来更自然</changelogtext>
+        <changelogtext>关于界面增加成就进度展示</changelogtext>
+        <changelogtext>关于界面增加本更新记录显示</changelogtext>
+        <changelogtext>关于界面增加本应用下载二维码</changelogtext>
+        <changelogtext>修复错误的在储存卡创建LazyList文件夹的bug,你可以放心手动删除储存卡下的LazyList文件夹</changelogtext>
+        <changelogtext>增加运行统计以及崩溃信息自动反馈开发者功能</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.8.0#1" changeDate="2015年2月16日">
+        <changelogtext>重新打包,解决"关于"崩溃</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.8.0" changeDate="2015年2月16日">
+        <changelogtext>如你所见,这个对话框</changelogtext>
+        <changelogtext>增加"反馈"功能</changelogtext>
+        <changelogtext>取消了分类界面</changelogtext>
+        <changelogtext>修改了应用信息界面</changelogtext>
+        <changelogtext>增加新手教程</changelogtext>
+        <changelogtext>修改应用列表和APK列表界面</changelogtext>
+        <changelogtext>加入排序方式选择</changelogtext>
+        <changelogtext>修改翻页按钮以及跳页方式</changelogtext>
+        <changelogtext>清理缓存功能能清理本应用在系统中的缓存了</changelogtext>
+        <changelogtext>应用截图查看时多点操作完美了</changelogtext>
+        <changelogtext>统一界面,安卓2.3~5.1上本应用应该看起来都一样了</changelogtext>
+        <changelogtext>标题栏左侧添加了返回按钮</changelogtext>
+        <changelogtext>应用列表界面向左滑动选择分类</changelogtext>
+        <changelogtext>加入甜甜的对话框</changelogtext>
+        <changelogtext>应用列表页和APK列表页下拉可以清空图标缓存并刷新</changelogtext>
+        <changelogtext>修复部分应用进入下载时客户端崩溃问题</changelogtext>
+        <changelogtext>修正部分黑色主题系统看不到更新内容问题</changelogtext>
+        <changelogtext>修正了一些设备本应用图标不对的问题</changelogtext>
+        <changelogtext>修复一些应用不能下载(通过下载管理器下载时瞬间消失)的问题</changelogtext>
+        <changelogtext>列表和信息页添加了一些动画效果</changelogtext>
+        <changelogtext>调整第一次使用对话框出现次序</changelogtext>
+        <changelogtext>成就系统</changelogtext>
+        <changelogtext>移除彩蛋</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.5.7" changeDate="2015年2月9日">
+        <changelogtext>去掉广告屏蔽检查(我们仍未盈利)</changelogtext>
+        <changelogtext>安卓3.0及更高版本下载完成后应该状态栏里留有记录,部分机型自动弹出安装</changelogtext>
+        <changelogtext>退出时自动清空图标缓存</changelogtext>
+        <changelogtext>修复.nomedia创建在错误的位置</changelogtext>
+        <changelogtext>修正部分源代码语法错误</changelogtext>
+        <changelogtext>修复安卓5.0及更高系统无法安装的问题</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.5.2" changeDate="2014年7月12日">
+        <changelogtext>启动界面增加启动进度提示</changelogtext>
+        <changelogtext>改善界面</changelogtext>
+        <changelogtext>可能修复了一些设备上下载和更新时崩溃的问题</changelogtext>
+        <changelogtext>大量修补逻辑代码,解决大量因为网络问题而导致的崩溃问题</changelogtext>
+        <changelogtext>查看截图时可以移动和缩放了,但做得很差</changelogtext>
+        <changelogtext>修复了一些设备点击"市场"按钮崩溃的问题</changelogtext>
+        <changelogtext>关于界面里增加一个"复制"按钮</changelogtext>
+        <changelogtext>增加应用分享功能</changelogtext>
+        <changelogtext>可能改善了一下自动更新的体验</changelogtext>
+        <changelogtext>添加了广告,并对广告屏蔽作反击</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.4.2" changeDate="2014年6月19日">
+        <changelogtext>修复不能自动下载自身更新</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="beta 1.4.1" changeDate="2014年6月18日">
+        <changelogtext>修复部分应用下载秒失败</changelogtext>
+    </changelogversion>
+
+</changelog>
