@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog bulletedList="true">
-    <changelogversion versionName="4.4.0" changeDate="2016年5月14日">
+    <changelogversion versionName="4.5.6" changeDate="2016年6月1日">
+        <changelogtext>修复主界面切换到后台后再切换回来轮播不滚动的问题</changelogtext>
+        <changelogtext>安卓4.4以下精选信息界面出现错误的状态栏外边距问题</changelogtext>
+        <changelogtext>修复精选界面查看截图时按返回键直接结束活动的问题</changelogtext>
+        <changelogtext>修复大屏低DPI设备精选界面标题显示可能不完整的问题</changelogtext>
+        <changelogtext>改进模糊算法，解决部分设备越界崩溃的问题</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="4.5.1" changeDate="2016年5月30日">
+        <changelogtext>系统要求完全提升至至少安卓4.0</changelogtext>
+        <changelogtext>增加 非Play应用集 (精选)</changelogtext>
+        <changelogtext>活动按钮需要额外安装功能时会先弹出对话框询问而不是直接下载了</changelogtext>
+        <changelogtext>开始记录下载历史(仅记录)</changelogtext>
+        <changelogtext>修正错误的页数计算算法</changelogtext>
+        <changelogtext>修复了某些崩溃</changelogtext>
+        <changelogtext>微调了一些视觉效果</changelogtext>
+        <changelogtext>增加用户使用协议许可功能</changelogtext>
+        <changelogtext>(从损坏的硬盘中拯救了代码)</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="4.4.2" changeDate="2016年5月14日">
+        <changelogtext>修复不弹出升级对话框的问题</changelogtext>1
         <changelogtext>修复谷歌翻译在不同系统版本间的差异导致部分设备错误的判断没有安装谷歌翻译的问题</changelogtext>
-        <changelogtext>修复活动界面按钮直接返回会崩溃的问题以及刷新时u偶尔崩溃的问题</changelogtext>
+        <changelogtext>修复活动界面按钮直接返回会崩溃的问题以及刷新时偶尔崩溃的问题</changelogtext>
+        <changelogtext>API增加版本鉴别</changelogtext>
     </changelogversion>
     <changelogversion versionName="4.3.8" changeDate="2016年5月11日">
         <changelogtext>界面底层框架更换(新旧技术更换)</changelogtext>

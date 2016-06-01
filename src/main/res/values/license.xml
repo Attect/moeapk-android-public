@@ -46,4 +46,6 @@
     <string name="module_license_rajawali_vr">Copyright 2013 Dennis Ippel\nLicensed under the Apache License, Version 2.0\nhttps://github.com/Rajawali/RajawaliVR\nVUFORIA license:\nCopyright (c) 2010-2013 QUALCOMM Austria Research Center GmbH.</string>
     <string name="module_name_custom_tabs_helper">CustomTabsHelper</string>
     <string name="module_license_custom_tabs_helper">Copyright 2015 Zhang Hai\nLicensed under the Apache License, Version 2.0\nhttps://github.com/DreaminginCodeZH/CustomTabsHelper</string>
+    <string name="module_name_genius_android">Genius-Android</string>
+    <string name="module_license_genius_android">Copyright 2014-2016 Qiujuer.\nLicensed under the Apache License, Version 2.0\nhttps://github.com/qiujuer/Genius-Android</string>
 </resources>

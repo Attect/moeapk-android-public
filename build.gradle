@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.moeapk"
+        minSdkVersion 14
+        targetSdkVersion 23
+
+        ndk {
+            moduleName "NativeTool"
+            stl "stlport_static"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+}
+
+dependencies {
+    compile project(':gestureimageview')
+    compile project(':ChangeLogLibrary')
+    compile files('libs/com.umeng.fb.v5.1.0.jar')
+    compile project(':sweetAlertDialog')
+    compile files('libs/umeng-analytics-v5.4.1.jar')
+    compile files('libs/zxing.jar')
+    compile project(':colorart')
+    compile project(':EnhancedListView')
+    compile project(':drag-sort-listview')
+    compile project(':android-gif-drawable')
+    compile project(':webp_backport')
+    compile project(':universalImageLoader')
+    compile project(':player-arm64')
+    compile project(':player-armv5')
+    compile project(':player-armv7a')
+    compile project(':player-x86')
+    compile project(':MaterialDesign')
+    compile project(':material')
+    compile project(':easyrecyclerview')
+    compile project(':MultViewPager')
+    compile project(':player-java')
+    compile project(':okhttputils')
+    compile project(':universalvideoview')
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:gridlayout-v7:23.4.0'
+    compile 'com.android.support:preference-v7:23.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.mikepenz:materialdrawer:4.6.4'
+    compile 'com.android.support:design:23.4.0'
+    compile project(':EaseInterpolatorLib')
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'org.rajawali3d.vr:rajawalivr:1.0.0-SNAPSHOT'
+    compile 'me.zhanghai.android.customtabshelper:library:1.0.1'
+    compile project(':shadow-layout')
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'net.qiujuer.genius:blur:2.0.0-beta4'
+}
